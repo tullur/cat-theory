@@ -1,0 +1,13 @@
+* Category: The Essence of Composition
+
+** Arrows as Functions
+#+begin_src bash
+  lsof | grep Chrome
+#+end_src
+
+#+begin_src c
+C g_after(A a)
+{
+  return g(f(a));
+}
+#+end_src
